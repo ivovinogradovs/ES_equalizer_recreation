@@ -58,6 +58,7 @@ recreation_matrices = {
 GAMMA = 0.6
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H3("Recreation Equalizer", style={"textAlign": "center"}),
