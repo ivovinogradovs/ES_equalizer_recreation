@@ -48,12 +48,12 @@ recreation_matrices = {
     "Urban Recreation Forest": recreation_matrix_high
 }
 
-#recreation_regime_weights = {
-#   "Low-Impact Gathering Area": 0.6,
-#   "Multi-Use Recreation Forest": 1.0,
-#   "Urban Recreation Forest": 1.4
-#
-#}
+recreation_regime_weights = {
+   "Low-Impact Gathering Area": 1.0,
+   "Multi-Use Recreation Forest": 1.0,
+   "Urban Recreation Forest": 1.0
+
+}
 
 GAMMA = 0.6
 
