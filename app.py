@@ -168,23 +168,5 @@ def update_from_recreation(rec_value, reset_clicks, regime, total_area, managed_
 
     return result.tolist()
 
-app.run(port=8059, debug=False)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+app.run(host="0.0.0.0", port=8059)
 
